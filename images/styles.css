@@ -42,6 +42,32 @@ h6 {
   align-items: center;
 }
 
+.header-menu-items-studio::after{
+  content:"";
+  display: block;
+  border-radius: 2px;
+  width: 48px;
+  height: 4px;
+  background: #404bbf;
+  }
+
+.header-menu-items-portfolio::after {
+  content:"";
+  display: block;
+  border-radius: 2px;
+  width: 66px;
+  height: 4px;
+  background: #404bbf;
+  }
+
+.header-menu-items-contacts::after {
+  content: "";
+  display: block;
+  border-radius: 2px;
+  width: 67px;
+  height: 4px;
+  background: #404bbf;
+  }
 
 .logo {
   font-family: Raleway, sans-serif;
@@ -491,9 +517,4 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 .footer-title {
   display: flex;
   gap: 120px;
-}
-
-.current {
-  position: relative;
-  color: #404bbf;
 }
