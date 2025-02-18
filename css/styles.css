@@ -94,7 +94,7 @@ h6 {
   display: block;
   width: 100%;
   border-radius: 2px;
-  width: 48px;
+  width: 48px 64px;
   height: 4px;
   background: #404bbf;
 }
@@ -142,9 +142,12 @@ h6 {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
+  max-width: 1440px;
+  margin: 0 auto;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(../images/people-office\ 1.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .hero-title {
@@ -273,9 +276,7 @@ img {
   text-align: center;
   width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
   width: 264px;
-  height: 428px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
 }
@@ -291,6 +292,7 @@ img {
 }
 
 .title {
+  margin-bottom: 8px;
   font-size: 16px;
   line-height: 24px;
   line-height: 1.5;
@@ -377,7 +379,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 }
 
 .icon-title {
-  display:flex;
+  margin-bottom: 16px;
   justify-content: center;
   color:#ffffff
 }
@@ -385,48 +387,15 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 .icon-menu {
   display: flex;
   justify-content: center;
-  gap: 16px;
+  gap: 24px;
 }
 
-.icon-strategy {
+.icon-item {
   border: 1px solid #8e8f99;
   border-radius: 4px;
   width: 264px;
   height: 112px;
-  background: #f4f4fd;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.icon-punctuality {
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  width: 264px;
-  height: 112px;
-  background: #f4f4fd;
-  display:flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.icon-diligens {
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  width: 264px;
-  height: 112px;
-  background: #f4f4fd;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.icon-technologies {
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  width: 264px;
-  height: 112px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  margin-bottom: 8px;
   background: #f4f4fd;
   display: flex;
   align-items: center;
@@ -472,7 +441,6 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 }
 
 .icon-menu-footer {
-  padding-top: 16px;
   display: flex;
   justify-content: center;
   gap: 16px;
@@ -503,7 +471,10 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 
 .footer-title {
   display: flex;
-  gap: 120px;
+}
+
+.main-footer {
+  margin-right: 120px;
 }
 
 .current {
